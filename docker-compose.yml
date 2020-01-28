@@ -9,7 +9,7 @@ services:
     volumes:
       - ./pgdata:/var/lib/postgresql/data/pgdata #primera parte es el disco duro del servidor, segunda parte es donde se encuentra la data dentro del contenedor.
     environment:
-      POSTGRES_PASSWORD: PabloPena
-      POSTGRES_DB: PabloPena
-      POSTGRES_USER: PabloPena
+      POSTGRES_PASSWORD: test
+      POSTGRES_DB: test
+      POSTGRES_USER: test
       PGDATA: /var/lib/postgresql/data/pgdata
